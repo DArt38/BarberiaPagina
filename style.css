@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    background-color: #BBBBBB;
+    background: linear-gradient(270deg,rgb(148, 207, 148, 80%),rgb(214, 212, 212),#b6aeae,rgb(245, 46, 46, 50%))fixed;
     padding: 20px 0;
 }
 
@@ -12,6 +12,10 @@ header{
     position: relative;
     margin: 0 auto;
 
+}
+
+.img-logo{
+    box-shadow: 10px 10px 15px black;
 }
 
 nav{
@@ -24,6 +28,7 @@ nav{
 nav li{
     display: inline;
     margin: 0 0 0 15px;
+
 }
 
 nav a{
@@ -32,11 +37,13 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+ 
 }
 
 nav a:hover{
     color: #c78c19;
     text-decoration: underline;
+    
 }
 
 .productos{
@@ -61,6 +68,7 @@ nav a:hover{
 
 .productos li:hover{
     border-color: #c78c19;
+    
 }
 
 .productos li:active{
@@ -90,6 +98,11 @@ footer{
     text-align: center;
     background: url(imagenes/bg.jpg);
     padding: 40px;
+}
+
+.img-footer{
+    border-radius: 30px 30px 120px 120px;
+
 }
 
 .copyright{
@@ -133,19 +146,20 @@ select{
 
 .enviar{
     width: 50%;
-    padding: 15px 0;
-    font-size: 18px;
+    padding: 10px 0;
+    font-size: 14px;
     font-weight: bold;
     color: white;
-    background-color: orange;
+    background-color: rgb(219, 155, 35);
     border: none;
     border-radius: 10px;
     transition: 1s all;
     cursor: pointer;
+    box-shadow: 10px 10px 15px black;
 }
 
 .enviar:hover{
-    background-color: green;
+    background-color: rgb(147, 172, 147);
     transform: scale(1.1);
 }
 
@@ -153,6 +167,7 @@ table{
     margin: 40px 40px;
     font-family: monospace;
     font-size: 18px;
+    box-shadow: 10px 10px 15px;
 }
 
 thead{
