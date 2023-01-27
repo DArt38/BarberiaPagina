@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    background: linear-gradient(270deg,rgb(148, 207, 148, 80%),rgb(214, 212, 212),#b6aeae,rgb(245, 46, 46, 50%))fixed;
+    background: linear-gradient( #dacfc4, #E2D1C3,#40407c)fixed;
     padding: 20px 0;
 }
 
@@ -300,7 +300,7 @@ td,th{
     .caja,.principal, .mapa-contenido, .contenido-diferenciales, .video{
         width: auto;
     }
-    .lista-diferenciales,.imagen-diferenciales{
+    .lista-diferenciales,.imagen-diferenciales,.img-footer{
         width: 100%;
     }
 }
